@@ -17,4 +17,4 @@ I'm building this very small app to learn how to write Python code. Why a pomodo
   - Learned about docstrings and added some of those (why are they so ugly?)
   - Switched out the conditional in the rest_interval function for a while loop
   - Learned about try-except blocks and added some error handling (ValueError, KeyboardInterrupt, EOFError)
-- Added new alert sounds
+- [Added new alert sounds](https://github.com/stephburton/pom_timer/pull/4)
