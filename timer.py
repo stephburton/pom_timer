@@ -23,7 +23,7 @@ def work_interval():
     try:
         interval = int(input("How long (minutes) should the work timer run? ")) * 60
         pom_timer(interval)
-        subprocess.run(["afplay", "/System/Library/Sounds/Funk.aiff"])
+        subprocess.run(["afplay", "alert_sounds/work_end.mp3"])
         rest_interval()
     except ValueError:
         print("Invalid input. Please enter a valid integer.")
@@ -56,7 +56,7 @@ def rest_interval():
           try:
             interval = int(input("How long (minutes) should the rest timer run? ")) * 60
             pom_timer(interval)
-            subprocess.run(["afplay", "/System/Library/Sounds/Blow.aiff"])
+            subprocess.run(["afplay", "alert_sounds/break_end.mp3"])
           except ValueError:
               print("Invalid input. Please enter a valid integer.")
               rest_interval()
