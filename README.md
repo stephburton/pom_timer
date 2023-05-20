@@ -1,4 +1,4 @@
-# pom_timer
+# pom timer
 A tiny Python pomodoro timer.
 
 ### Credits:
