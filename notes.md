@@ -11,3 +11,4 @@ I'm building this very small app to learn how to write Python code. Why a pomodo
 - Created the bare-bones timer
 - Created this repo
 - [Condensed the timer functions into one single function](https://github.com/stephburton/pom_timer/pull/1)
+- Separated the work and rest intervals into their own functions, so I can add different alert sounds
