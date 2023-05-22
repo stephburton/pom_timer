@@ -1,0 +1,1 @@
+set theResponse to display dialog "Goodbye" buttons {"OK"} default button "OK" with icon POSIX file "/Users/steph/learn-python/pom_timer/pomodoro.png"
