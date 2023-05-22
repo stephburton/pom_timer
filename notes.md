@@ -21,7 +21,7 @@ I'm building this very small app to learn how to write Python code. Why a pomodo
 
 ### May 22, 2023
 
-- Lots of changes in this PR
+- [Lots of changes in this PR](https://github.com/stephburton/pom_timer/pull/5)
   - Added a few applescript scripts so I can display dialog boxes to accept user input and provide information.
   - Added an icon for the dialog boxes.
   - Removed the alert sounds I added previously and opted to use the System sounds instead
