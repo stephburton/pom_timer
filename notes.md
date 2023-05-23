@@ -25,7 +25,7 @@ I'm building this very small app to learn how to write Python code. Why a pomodo
   - Added a few applescript scripts so I can display dialog boxes to accept user input and provide information.
   - Added an icon for the dialog boxes.
   - Removed the alert sounds I added previously and opted to use the System sounds instead
-- Some additional tweaks
+- [Some additional tweaks](https://github.com/stephburton/pom_timer/pull/5)
   - added input validation in timer.scpt
   - added dialog titles
   - added error handling for functions in timer.py
