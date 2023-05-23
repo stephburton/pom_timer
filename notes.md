@@ -31,7 +31,7 @@ I'm building this very small app to learn how to write Python code. Why a pomodo
   - added error handling for functions in timer.py
 
 ### May 23, 2023
-- I attempted to cut down on how much I was repeating myself
+- [I attempted to cut down on how much I was repeating myself](https://github.com/stephburton/pom_timer/pull/7)
   - Created a constants file and referenced these constants in the Python and the applescripts
   - References to files are now relative
   - Created an alert sound and replaced the system alert used previously
