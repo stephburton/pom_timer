@@ -2,15 +2,18 @@ set theResponse to display dialog "How long should the timer run?" default answe
 
 set timerDuration to missing value
 
--- Check the button clicked by the user
 if button returned of theResponse is "Continue" then
-    set timerDuration to (text returned of theResponse) as number
-    -- Perform the default action for "Continue" button
-    -- display dialog "Timer will run for " & timerDuration & " minutes."
-    display dialog "Timer will run for " & timerDuration & " seconds."
+    try
+        set timerDuration to (text returned of theResponse) as number
+        display dialog "Timer will run for " & timerDuration & " minutes." with title "Pomodoro Timer"
+    on error errText
+        set terminalCommand to "echo " & quoted form of ("An error occurred: " & errText) & " >> /dev/tty"
+        do shell script terminalCommand
+        display dialog "Invalid input. Please try again." with title "Pomodoro Timer"
+        set timerDuration to 0
+    end try
 else if button returned of theResponse is "Cancel" then
-    -- Perform the action for "Cancel" button
-    display dialog "Timer canceled."
+    display dialog "Timer canceled." with title "Pomodoro Timer"
 end if
 
 return timerDuration
