@@ -1,4 +1,4 @@
-set theResponse to display dialog "Time's up! Would you like to start a new timer?" buttons {"Yes", "No"} default button "No" with icon POSIX file "/Users/steph/learn-python/pom_timer/pomodoro.png"
+set theResponse to display dialog "Time's up! Would you like to start a new timer?" with title "Pomodoro Timer" buttons {"Yes", "No"} default button "No" with icon POSIX file "/Users/steph/learn-python/pom_timer/pomodoro.png"
 
 set newTimer to missing value
 
