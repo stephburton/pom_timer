@@ -17,7 +17,7 @@ def system_dialog(TIMER_SCRIPT):
     try:
         output = subprocess.check_output(['osascript', TIMER_SCRIPT]).decode('utf-8').strip()
         print("The timer will run for " + output + " minutes.")
-        interval = int(output[0]) * 60
+        interval = int(output) * 60
         pom_timer(interval)
     except subprocess.CalledProcessError as e:
         if e.returncode == 1:
